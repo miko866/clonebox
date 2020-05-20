@@ -1,0 +1,36 @@
+/*
+* General classes scss
+*/
+
+.container {
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.hover-download {
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    color: $color-light-blue;
+  }
+}
+
+.hover-delete {
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    color: $color-delete;
+  }
+}
+
+.a-link-icon {
+  display: flex;
+  align-items: flex-start;
+}

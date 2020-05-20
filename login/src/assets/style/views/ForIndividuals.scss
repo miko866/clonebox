@@ -1,0 +1,55 @@
+@import 'src/assets/style/App.scss';
+
+.individuals__upper {
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: $color-dark-blue;
+
+  &--content {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+  }
+
+  &--subtitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: $color-orange;
+  }
+  &--title {
+    font-weight: bolder;
+    color: $color-orange;
+    font-size: 4em;
+  }
+  &--paragraph {
+    font-size: 1.5em;
+    color: white;
+    width: 60%;
+  }
+  &--picture {
+    width: 40%;
+  }
+}
+.individuals__whitespace {
+  width: 100%;
+  height: 10em;
+}
+.individuals__lower {
+  padding-left: 5em;
+  padding-right: 5em;
+  background-color: $color-dark-blue;
+
+  &--content {
+    width: 55%;
+    height: 40%;
+  }
+  &--subtitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: $color-orange;
+  }
+  &--paragraph {
+    padding-top: 2.5em;
+    color: white;
+  }
+}

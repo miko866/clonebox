@@ -1,0 +1,21 @@
+/*
+* Upload Component CSS
+*/
+
+@import 'src/assets/style/App';
+
+.upload {
+  padding-top: 10em;
+  display: flex;
+
+  align-self: flex-end;
+  width: 100%;
+  padding: 1em 1em;
+  height: 100%;
+  border-top: $color-dark-grey 1px solid;
+  border-left: $color-dark-grey 1px solid;
+
+  &__menu {
+    width: 100%;
+  }
+}

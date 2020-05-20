@@ -1,0 +1,51 @@
+{
+  "button": {
+    "signOut": "Sign out",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "create": "Create"
+  },
+  "dashboard": {
+    "organization": "Organization"
+  },
+  "fileSelection": {
+    "myFiles": "My files",
+    "allFiles": "All files"
+  },
+  "user": {
+    "settings": "User settings",
+    "changeImage": "Change image",
+    "storage": "Organization storage",
+    "used": "used of",
+    "select": "Select picture"
+  },
+  "table": {
+    "search": "Search file",
+    "name": "Name",
+    "modified": "Modified",
+    "type": "Type",
+    "size": "Size",
+    "author": "Author",
+    "actions": "Actions",
+    "noData": "No data available",
+    "noResult": "Searched file doesn't exists",
+    "itemsPerPage": "Rows per page:",
+    "deleteText": "Are you sure that you would delete this file?"
+  },
+  "upload": {
+    "files": "Upload files",
+    "newFolder": "New folder",
+    "successMessage": "File was successfully uploaded.",
+    "chooseFile": "Choose file",
+    "createFolder": "Create a new folder"
+  },
+  "error": {
+    "avatarLoad": "Picture can't be loaded.",
+    "avatarSave": "Picture can't be saved.",
+    "upload": "Upload has failed.",
+    "download": "Download has failed.",
+    "delete": "Deleting has failed.",
+    "displayData": "Failed to show data."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "button": {
+    "close": "Schliessen"
+  },
+  "validation": {
+    "letter": "Mindestens 3 Buchstaben",
+    "email": "Email muss angegeben werden",
+    "checkEmail": "Das ist keine Email Adresse",
+    "password": "Passwort muss angegeben werden",
+    "samePassword": "Das Passwörter sind nicht dieseleben",
+    "passwordRepeat": "Wiederholtes Passwort muss angegeben werden",
+    "firstName": "Vorname muss angegeben werden",
+    "lastName": "Nachname muss angegeben werden",
+    "organization": "Organisation muss angegeben werden",
+    "terms": "Die Bedingungen müssen Akzeptiert werden"
+  },
+  "navbar": {
+    "individual": "Für Einzelpersonen",
+    "aboutUs": "Über uns"
+  },
+  "dashboard": {
+    "title1": "Konzentrieren sie sich ",
+    "title2": "auf die Arbeit",
+    "title3": "die zählt"
+  },
+  "authForm": {
+    "signUp": "Registrieren",
+    "signIn": "Einloggen",
+    "email": "E-mail",
+    "password": "Passwort",
+    "passwordForget": "Haben sie ihr Passwort vergessen?",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "repeatPassword": "Wiederhole Passwort",
+    "organization": "Organisation",
+    "newOrganization": "Erstelle eine neue Organisation",
+    "terms": {
+      "title": "Ich akzeptiere die ",
+      "subtitle": "CloneBox Bestimmungen"
+    }
+  },
+  "login": {
+    "successMessage": "Erfolgreich Erstellt",
+    "title": "Sie können nun in ihren Account Einloggen",
+    "registerMessage": {
+      "text1": "Willkommen im Team ",
+      "text2": "ihr Account und Organisation ",
+      "text3": " sind bereit",
+      "text4": "ihr Account ist bereit"
+    }
+  },
+  "individual": {
+    "headerTitle": "Dropbox individuelle Pläne",
+    "title": "Holen Sie sich Platz und vieles mehr",
+    "subtitle": "Dropbox ist der beste Weg, um alle Ihre Dateien sicher zu speichern, freizugeben und darauf zuzugreifen.",
+    "plan": {
+      "title": "Finden Sie den richtigen CloneBox-Plan für Sie",
+      "text": "CloneBox Plus- und Professional bieten Premium-Produktivitätsfunktionen, die Ihnen die beste Erfahrung bieten, sind aber leider noch nicht verfügbar."
+    }
+  },
+  "aboutUs": {
+    "title": "Mission",
+    "subtitle": "Unsere Mission ist es, eine aufgeklärtere Arbeitsweise zu entwickeln",
+    "story": {
+      "title": "Unsere Story",
+      "subtitle": "CloneBox baut den weltweit ersten intelligenten Arbeitsbereich."
+    },
+    "team": "Unser Team"
+  },
+  "passwordForget": {
+    "title": "Du hast dein Passwort vergessen?",
+    "text": "Dieses Feature wird in naher Zukunft noch implementiert",
+    "btn": "zurück"
+  },
+  "terms": {
+    "title": "Bedingungen",
+    "btn": "schliessen"
+  },
+
+  "error": {
+    "signIn": "Falsche informationen",
+    "signUp": "Füllen Sie alle Felder aus",
+    "organization": "Die Organisation existiert schon",
+    "noOrganization": "Organisation existiert nicht",
+    "emailExists": "E-Mail ist bereits vorhanden"
+  }
+}

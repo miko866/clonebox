@@ -1,0 +1,42 @@
+@import 'src/assets/style/App.scss';
+
+.aboutUs__upper {
+  background-color: $color-light-blue;
+  padding: 5em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &--content {
+    height: 100%;
+  }
+  &--title {
+    font-size: 3em;
+  }
+  &--subtitle {
+    font-size: 3.5em;
+  }
+}
+.aboutUs__lower {
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-top: 9em;
+  &--content {
+  }
+  &--title {
+    font-weight: bold;
+  }
+  &--subtitle {
+    font-weight: bold;
+    padding-bottom: 2em;
+  }
+  &--team {
+    display: flex;
+    justify-content: space-between;
+  }
+  &--picture {
+    display: inline-block;
+    width: 20%;
+  }
+}

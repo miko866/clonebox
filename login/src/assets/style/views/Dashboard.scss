@@ -1,0 +1,39 @@
+/*
+* Dashboard scss
+*/
+
+@import './src/assets/style/App';
+
+.dashboard {
+  display: flex;
+
+  &__content {
+    min-height: 100%;
+    width: 70%;
+    background-color: $color-dark-blue;
+  }
+
+  &__nav {
+    display: flex;
+
+    &--icon {
+      display: flex;
+      width: 20em;
+    }
+
+    &--menu {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    line-height: 1.3em !important;
+    color: $color-yellow;
+  }
+
+  &__text {
+    width: 70%;
+    padding-top: 2em;
+  }
+}

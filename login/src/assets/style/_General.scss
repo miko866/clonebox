@@ -1,0 +1,180 @@
+/*
+* Custom General CSS
+*/
+
+//! Only for Developing
+// * {
+// 	outline: 3px solid black;
+// }
+
+.test {
+  width: 100%;
+}
+
+// For Microsoft Devices - Responsive
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  // Instant Response for Mobile Devices on TOUCH, 300 / ms Delay Delay
+  -ms-touch-action: manipulation; /* IE10  */
+  touch-action: manipulation;
+
+  // Hidden Scrollbar
+  -ms-overflow-style: none; // IE 10+
+  scrollbar-width: none; // Firefox
+
+  position: relative;
+  height: 100%;
+
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+// remove Outline
+*:focus {
+  outline: none;
+  outline: 0;
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  font: {
+    size: $font-size;
+    family: $font-family;
+  }
+
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  text-rendering: optimizelegibility;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  color: $color-black;
+
+  font: {
+    size: $font-size;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: $color-black;
+  font: {
+    size: $font-size;
+    family: $font-family;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+  // Vuetify Navigation Drawer Icons
+  padding: 0.5em !important;
+}
+
+// Vuetify Navigation Drawer
+aside {
+  width: 4em !important;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+// Add color for marked text
+::selection {
+  background: $color-orange;
+  color: $color-white;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: $color-orange;
+  color: $color-white;
+  text-shadow: none;
+}
+
+// Hide Scrollbar
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+input,
+input:before,
+input:after {
+  -webkit-user-select: initial;
+  -khtml-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}

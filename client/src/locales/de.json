@@ -1,0 +1,51 @@
+{
+  "button": {
+    "signOut": "Ausloggen",
+    "cancel": "Schliessen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "create": "Erstellen"
+  },
+  "dashboard": {
+    "organization": "Organisation"
+  },
+  "fileSelection": {
+    "myFiles": "Meine Dateien",
+    "allFiles": "Alle Dateien"
+  },
+  "user": {
+    "settings": "Benutzer Einstellungen",
+    "changeImage": "Wechsle Bild",
+    "storage": "Orgaisations Speicher",
+    "used": "benutzt von",
+    "select": "Wähle Bild"
+  },
+  "table": {
+    "search": "Suche Datei",
+    "name": "Name",
+    "modified": "Geändert",
+    "type": "Typ",
+    "size": "Grösse",
+    "author": "Ersteller",
+    "actions": "Aktionen",
+    "noData": "Keine Daten verfügbar",
+    "noResult": "Die gesuchte Datei existiert nichts",
+    "itemsPerPage": "Zeilen pro Seite:",
+    "deleteText": "Sind Sie sicher, dass Sie diese Datei \n Löschen wollen?"
+  },
+  "upload": {
+    "files": "Datei Hochladen",
+    "newFolder": "Neuer Ordner",
+    "successMessage": "Datei wurde Erfolgreich hochgeladen.",
+    "chooseFile": "Wähle Datei",
+    "createFolder": "Erstelle neuen Ordner"
+  },
+  "error": {
+    "avatarLoad": "Bild konnte nicht geladen werden.",
+    "avatarSave": "Bild konnte nicht gespeichert werden.",
+    "upload": "Hochladen ist fehlgeschlagen.",
+    "download": "Herunterladen ist fehlgeschlagen.",
+    "delete": "Löschen ist fehlgeschlagen.",
+    "displayData": "Das Anzeigen der Daten ist fehlgeschlagen."
+  }
+}

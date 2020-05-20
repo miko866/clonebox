@@ -1,0 +1,29 @@
+/*
+* Dashboard View CSS
+*/
+
+@import './src/sass/variables';
+@import './src/assets/style/App';
+
+.dashboard {
+  height: 100%;
+
+  &__title {
+    max-height: 15%;
+    font-family: $body-font-family;
+    padding-top: 2em;
+  }
+}
+
+.userCol {
+  background-color: $color-light-grey;
+  min-height: 100%;
+
+  &__avatar {
+    min-height: auto;
+  }
+  &__selection {
+    height: 90vh;
+    background-color: $color-light-grey;
+  }
+}

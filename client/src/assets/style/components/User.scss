@@ -1,0 +1,29 @@
+/*
+* User Component CSS
+*/
+
+@import './src/sass/variables';
+@import './src/assets/style/App';
+
+.user {
+  background-color: $color-light-grey;
+  height: 30%;
+
+  &__profile {
+    width: 100%;
+    font-family: $body-font-family;
+    display: flex;
+    border-bottom: $color-dark-grey 1px solid;
+    align-items: center;
+    padding: 2em 1em;
+
+    &--avatar {
+      background-color: $color-light-grey;
+      margin-right: 2em;
+    }
+  }
+}
+.user__profile--avatarChange:hover {
+  color: #f3b2a5 !important;
+  cursor: pointer;
+}

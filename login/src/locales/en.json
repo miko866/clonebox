@@ -1,0 +1,86 @@
+{
+  "button": {
+    "close": "Close"
+  },
+  "validation": {
+    "letter": "Min 3 letters",
+    "email": "Email is required",
+    "checkEmail": "That is not email!",
+    "password": "Password is required",
+    "samePassword": "The password is not the same!",
+    "passwordRepeat": "Repeated password is required",
+    "firstName": "First name is required",
+    "lastName": "Last name is required",
+    "organization": "Organization is required",
+    "terms": "You must accept the terms first"
+  },
+  "navbar": {
+    "individual": "For individuals",
+    "aboutUs": "About us"
+  },
+  "dashboard": {
+    "title1": "Focus on the",
+    "title2": "work that",
+    "title3": "matters"
+  },
+  "authForm": {
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "email": "E-mail",
+    "password": "Password",
+    "passwordForget": "Forget your password ?",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "repeatPassword": "Repeat password",
+    "organization": "Organization",
+    "newOrganization": "Create new organization",
+    "terms": {
+      "title": "I agree to the",
+      "subtitle": "CloneBox terms"
+    }
+  },
+  "login": {
+    "successMessage": "Successfully created",
+    "title": "You can now sign in to your new account.",
+    "registerMessage": {
+      "text1": "Welcome in team",
+      "text2": "your account and organization ",
+      "text3": " are ready",
+      "text4": "your account is ready"
+    }
+  },
+  "individual": {
+    "headerTitle": "Dropbox individual plans",
+    "title": "Get space and so much more",
+    "subtitle": "Dropbox is the best way to store, share and access all of your files securely.",
+    "plan": {
+      "title": "Find the right CloneBox plan for you",
+      "text": "CloneBox Plus and Professional plans offer premium productivity features that give you the best experience but unfortunately they are not yet available."
+    }
+  },
+  "aboutUs": {
+    "title": "Mission",
+    "subtitle": "Our mission is to design a more enlightened way of working",
+    "story": {
+      "title": "Our Story",
+      "subtitle": "CloneBox is building the world first smart workspace."
+    },
+    "team": "Our Team"
+  },
+  "passwordForget": {
+    "title": "Do you have forget your password?",
+    "text": "This feature will be implemented soon",
+    "btn": "back"
+  },
+  "terms": {
+    "title": "Conditions",
+    "btn": "close"
+  },
+  "error": {
+    "signIn": "Incorrect credentials",
+    "signUp": "Fill all fields",
+    "organization": "Organization already exists",
+    "noOrganization": "Organization doesn't exists",
+    "emailExists": "Email already exists"
+  }
+}

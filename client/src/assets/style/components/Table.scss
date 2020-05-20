@@ -1,0 +1,16 @@
+/*
+* Table Component CSS
+*/
+
+@import 'src/assets/style/App';
+
+.table__search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2em;
+
+  &--input {
+    width: 30%;
+  }
+}

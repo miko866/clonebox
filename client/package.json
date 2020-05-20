@@ -1,0 +1,63 @@
+{
+  "name": "file-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "eslint --ext .js --ext .vue src/",
+    "lint": "eslint --ext .js --ext .vue src/ --fix",
+    "format": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "material-design-icons-iconfont": "^5.0.1",
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.7.0",
+    "vue-i18n": "^8.17.0",
+    "vue-material-design-icons": "^4.4.0",
+    "vue-router": "^3.1.5",
+    "vue-sweetalert2": "^3.0.3",
+    "vuetify": "^2.2.11",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-plugin-eslint": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
+    "sass": "^1.26.2",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10",
+    "not IE_Mob 11"
+  ]
+}
